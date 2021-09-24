@@ -1,0 +1,22 @@
+{
+    "name": "sartaj/module-orderinstruction",
+    "description": "Add custom instruction for each product item.",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Sartaj",
+            "email": "muhammadsartajaalam@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sartaj\\OrderInstruction\\": ""
+        }
+    }
+}

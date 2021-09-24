@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<type name="Magento\Quote\Model\Quote\Item\ToOrderItem">
+		<plugin name="Sartaj_OrderInstruction_Plugin_Frontend_Magento_Quote_Model_Quote_Item_ToOrderItem" type="Sartaj\OrderInstruction\Plugin\Frontend\Magento\Quote\Model\Quote\Item\ToOrderItem" sortOrder="10" disabled="false"/>
+	</type>
+	<preference for="Magento\Framework\Serialize\Serializer\Json" type="Sartaj\OrderInstruction\Serialize\Serializer\Json" />
+</config>
